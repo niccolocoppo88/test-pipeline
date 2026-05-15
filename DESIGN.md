@@ -259,3 +259,4 @@ All icons rendered at 18–20px within 32×32px button containers.
 - **Don't** introduce additional accent colors beyond `#3B82F6`. If you need more states, use opacity or weight.
 - **Don't** add decorative elements, gradients, or illustrations — this is a tool, not a marketing page.
 - **Don't** nest component variants. `button-primary-hover` is a sibling entry, not a child of `button-primary`.
+- **Note on WCAG:** The tertiary blue (#3B82F6) with white text achieves ~3.68:1 contrast — just below WCAG AA 4.5:1. This is an intentional brand decision matching Linear's aesthetic. For full WCAG AA compliance, use a darker blue (#1D4ED8) for the primary fill state.
